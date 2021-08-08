@@ -1,0 +1,9 @@
+name: CropMagic
+main: blue.melon.minecraft.cropmagic.Loader
+api-version: 1.16
+version: ${project.version}
+commands:
+  grow:
+    permission: cropmagic.grow
+    default: op
+    usage: /grow <globalSpeedFactor>
